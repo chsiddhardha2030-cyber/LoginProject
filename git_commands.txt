@@ -1,0 +1,77 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir LoginProject
+   Creates a new project folder.
+
+2. cd LoginProject
+   Navigates into the project folder.
+
+3. git init
+   Initializes a local Git repository.
+
+4. git branch -M main
+   Renames the default branch to main.
+
+5. git status
+   Displays the current repository status.
+
+6. git add index.html about.html
+   Adds HTML files to the staging area.
+
+7. git commit -m "Initial commit: Add HTML files"
+   Creates the initial commit.
+
+8. git add index.html
+   Stages changes made to index.html.
+
+9. git commit -m "Update home page content"
+   Records the updated home page.
+
+10. git branch feature
+    Creates a new branch named feature.
+
+11. git switch feature
+    Switches to the feature branch.
+
+12. git add about.html
+    Stages the modified about.html file.
+
+13. git commit -m "Add feature branch information"
+    Commits changes in the feature branch.
+
+14. git switch main
+    Switches back to the main branch.
+
+15. git merge feature
+    Merges feature into main.
+
+16. git log --oneline --graph --all
+    Displays commit history and branch structure.
+
+17. git add .gitignore
+    Stages the .gitignore file.
+
+18. git commit -m "Add gitignore configuration"
+    Records Git ignore settings.
+
+19. git commit -m "Add temporary content"
+    Creates an additional commit for undo demonstration.
+
+20. git revert HEAD
+    Reverses the latest commit while preserving history.
+
+21. git remote add origin https://github.com/chsiddhardha2030-cyber/LoginProject.git
+    Connects the local repository to GitHub.
+
+22. git remote -v
+    Displays the configured remote repositories.
+
+23. git push -u origin main
+    Pushes the main branch to GitHub.
+
+24. git push -u origin feature
+    Pushes the feature branch to GitHub.
+
+25. git log --oneline
+    Displays commit history in compact format.
